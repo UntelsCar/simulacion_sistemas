@@ -1,0 +1,84 @@
+
+                                      ARENA Simulation Results
+                                                carlo
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/ 2/2024
+Analyst: carlo                                                       Model revision date:11/ 2/2024
+
+Replication ended at time      : 9.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+CLIENTE.VATime                              .19145     (Insuf)     4.1817E-4 1.0060        171    
+CLIENTE.NVATime                             .00000     (Insuf)    .00000     .00000        171    
+CLIENTE.WaitTime                            1.1542     (Insuf)    .00000     3.3512        171    
+CLIENTE.TranTime                            .00000     (Insuf)    .00000     .00000        171    
+CLIENTE.OtherTime                           .00000     (Insuf)    .00000     .00000        171    
+CLIENTE.TotalTime                           1.3456     (Insuf)    .00301     3.4761        171    
+VETANILLA2.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000         31    
+VETANILLA1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000         49    
+COLA3.Queue.WaitingTime                     1.1102     (Insuf)    .00000     2.8217         55    
+PLATAFORMA2.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         23    
+VENTANILLA3.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         41    
+PLATAFORMA1.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         32    
+COLA1.Queue.WaitingTime                     2.2706     (Insuf)    .00000     3.3512         49    
+COLA2.Queue.WaitingTime                     .34755     (Insuf)    .00000     .83206        112    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+CLIENTE.WIP                                 36.896     (Insuf)    .00000     86.000     73.000    
+PT2.NumberBusy                              .83339     (Insuf)    .00000     1.0000     1.0000    
+PT2.NumberScheduled                         .87572     (Insuf)    .00000     1.0000     1.0000    
+PT2.Utilization                             .83339     (Insuf)    .00000     1.0000     1.0000    
+PT1.NumberBusy                              .81167     (Insuf)    .00000     1.0000     1.0000    
+PT1.NumberScheduled                         .83846     (Insuf)    .00000     1.0000     1.0000    
+PT1.Utilization                             .81167     (Insuf)    .00000     1.0000     1.0000    
+CAJERO1.NumberBusy                          .88450     (Insuf)    .00000     1.0000     1.0000    
+CAJERO1.NumberScheduled                     .88292     (Insuf)    .00000     1.0000     1.0000    
+CAJERO1.Utilization                         .88450     (Insuf)    .00000     1.0000     1.0000    
+CAJERO3.NumberBusy                          .67861     (Insuf)    .00000     1.0000     1.0000    
+CAJERO3.NumberScheduled                     .88061     (Insuf)    .00000     1.0000     1.0000    
+CAJERO3.Utilization                         .67861     (Insuf)    .00000     1.0000     1.0000    
+CAJERO2.NumberBusy                          .59182     (Insuf)    .00000     1.0000     1.0000    
+CAJERO2.NumberScheduled                     .87202     (Insuf)    .00000     1.0000     1.0000    
+CAJERO2.Utilization                         .59182     (Insuf)    .00000     1.0000     1.0000    
+VETANILLA2.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+VETANILLA1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+COLA3.Queue.NumberInQueue                   10.854     (Insuf)    .00000     30.000     26.000    
+PLATAFORMA2.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+VENTANILLA3.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+PLATAFORMA1.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+COLA1.Queue.NumberInQueue                   17.559     (Insuf)    .00000     36.000     31.000    
+COLA2.Queue.NumberInQueue                   4.6826     (Insuf)    .00000     17.000     11.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+CLIENTE.NumberIn                            244.00    
+CLIENTE.NumberOut                           171.00    
+PT2.NumberSeized                            23.000    
+PT2.ScheduledUtilization                    .95166    
+PT1.NumberSeized                            32.000    
+PT1.ScheduledUtilization                    .96804    
+CAJERO1.NumberSeized                        49.000    
+CAJERO1.ScheduledUtilization                1.0017    
+CAJERO3.NumberSeized                        41.000    
+CAJERO3.ScheduledUtilization                .77061    
+CAJERO2.NumberSeized                        31.000    
+CAJERO2.ScheduledUtilization                .67868    
+System.NumberOut                            171.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
